@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jokebook</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+        <h1>Jokebook</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Get started</h2>
+            <h3>Q: What kind of tree fits in your hand?</h3>
+            <h3>A: A palm tree.</h3>
+            <button id="get-categories">Get categories</button>
+        </div>
+
+        <div class="container">
+            <h2>Jokes</h2>
+            <form id="search-form">
+                <label for="search">Search category:</label>
+                <input type="text" id="search">
+                <button type="submit">Search</button>
+            </form>
+            <div id="categories"></div>
+        </div>
+
+        <div class="container">
+            <h2>Add joke</h2>
+            <form id="add-joke">
+                <label for="joke-input">Joke:</label>
+                <input type="text" id="joke-input" name="joke">
+                <br>
+                <label for="response-input">Response:</label>
+                <input type="text" id="response-input" name="response">
+                <br>
+                <label for="category-input">Category:</label>
+                <input type="text" id="category-input" name="category">
+                <br>
+                <button type="submit">Add</button>
+            </form>
+        </div>
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html

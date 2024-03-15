@@ -1,0 +1,26 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    padding: 1rem 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.container {
+    border: 3px solid lightgrey;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+#add-joke label, input {
+    margin-bottom: 1rem;
+}
